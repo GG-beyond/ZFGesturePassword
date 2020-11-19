@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372F8EE521CBBD0600414221 /* ZFSubItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 372F8EE421CBBD0600414221 /* ZFSubItemView.m */; };
+		37F750A921C389CE00752AE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F750A821C389CE00752AE4 /* AppDelegate.m */; };
+		37F750AC21C389CE00752AE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F750AB21C389CE00752AE4 /* ViewController.m */; };
+		37F750AF21C389CE00752AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F750AD21C389CE00752AE4 /* Main.storyboard */; };
+		37F750B121C389CF00752AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F750B021C389CF00752AE4 /* Assets.xcassets */; };
+		37F750B421C389CF00752AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F750B221C389CF00752AE4 /* LaunchScreen.storyboard */; };
+		37F750B721C389CF00752AE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F750B621C389CF00752AE4 /* main.m */; };
+		37F750C021C38A1900752AE4 /* ZFGesturePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F750BF21C38A1900752AE4 /* ZFGesturePasswordViewController.m */; };
+		37F750C421C38FE300752AE4 /* ZFGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F750C321C38FE300752AE4 /* ZFGestureView.m */; };
+		37F750C821C3902400752AE4 /* ZFGesturePasswordConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F750C721C3902400752AE4 /* ZFGesturePasswordConfig.m */; };
+		37F750CB21C3917800752AE4 /* ZFNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F750CA21C3917800752AE4 /* ZFNodeView.m */; };
+		37F750CF21C7420F00752AE4 /* ZFGesturePasswordStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F750CE21C7420F00752AE4 /* ZFGesturePasswordStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		372F8EE321CBBD0600414221 /* ZFSubItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFSubItemView.h; sourceTree = "<group>"; };
+		372F8EE421CBBD0600414221 /* ZFSubItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFSubItemView.m; sourceTree = "<group>"; };
+		37F750A421C389CD00752AE4 /* ZFGesturePassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFGesturePassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F750A721C389CE00752AE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37F750A821C389CE00752AE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37F750AA21C389CE00752AE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37F750AB21C389CE00752AE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37F750AE21C389CE00752AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37F750B021C389CF00752AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37F750B321C389CF00752AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37F750B521C389CF00752AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F750B621C389CF00752AE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37F750BE21C38A1900752AE4 /* ZFGesturePasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFGesturePasswordViewController.h; sourceTree = "<group>"; };
+		37F750BF21C38A1900752AE4 /* ZFGesturePasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFGesturePasswordViewController.m; sourceTree = "<group>"; };
+		37F750C221C38FE300752AE4 /* ZFGestureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFGestureView.h; sourceTree = "<group>"; };
+		37F750C321C38FE300752AE4 /* ZFGestureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFGestureView.m; sourceTree = "<group>"; };
+		37F750C621C3902400752AE4 /* ZFGesturePasswordConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFGesturePasswordConfig.h; sourceTree = "<group>"; };
+		37F750C721C3902400752AE4 /* ZFGesturePasswordConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFGesturePasswordConfig.m; sourceTree = "<group>"; };
+		37F750C921C3917800752AE4 /* ZFNodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFNodeView.h; sourceTree = "<group>"; };
+		37F750CA21C3917800752AE4 /* ZFNodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFNodeView.m; sourceTree = "<group>"; };
+		37F750CC21C393F800752AE4 /* GestureConfigHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureConfigHeader.h; sourceTree = "<group>"; };
+		37F750CD21C7420F00752AE4 /* ZFGesturePasswordStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFGesturePasswordStore.h; sourceTree = "<group>"; };
+		37F750CE21C7420F00752AE4 /* ZFGesturePasswordStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFGesturePasswordStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37F750A121C389CD00752AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37F7509B21C389CD00752AE4 = {
+			isa = PBXGroup;
+			children = (
+				37F750A621C389CE00752AE4 /* ZFGesturePassword */,
+				37F750A521C389CD00752AE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37F750A521C389CD00752AE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37F750A421C389CD00752AE4 /* ZFGesturePassword.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37F750A621C389CE00752AE4 /* ZFGesturePassword */ = {
+			isa = PBXGroup;
+			children = (
+				37F750A721C389CE00752AE4 /* AppDelegate.h */,
+				37F750A821C389CE00752AE4 /* AppDelegate.m */,
+				37F750AA21C389CE00752AE4 /* ViewController.h */,
+				37F750AB21C389CE00752AE4 /* ViewController.m */,
+				37F750BD21C389EC00752AE4 /* ZFGesturePassword */,
+				37F750AD21C389CE00752AE4 /* Main.storyboard */,
+				37F750B021C389CF00752AE4 /* Assets.xcassets */,
+				37F750B221C389CF00752AE4 /* LaunchScreen.storyboard */,
+				37F750B521C389CF00752AE4 /* Info.plist */,
+				37F750B621C389CF00752AE4 /* main.m */,
+			);
+			path = ZFGesturePassword;
+			sourceTree = "<group>";
+		};
+		37F750BD21C389EC00752AE4 /* ZFGesturePassword */ = {
+			isa = PBXGroup;
+			children = (
+				37F750BE21C38A1900752AE4 /* ZFGesturePasswordViewController.h */,
+				37F750BF21C38A1900752AE4 /* ZFGesturePasswordViewController.m */,
+				37F750C521C38FF100752AE4 /* Model */,
+				37F750C121C38ED900752AE4 /* View */,
+			);
+			path = ZFGesturePassword;
+			sourceTree = "<group>";
+		};
+		37F750C121C38ED900752AE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37F750C221C38FE300752AE4 /* ZFGestureView.h */,
+				37F750C321C38FE300752AE4 /* ZFGestureView.m */,
+				372F8EE321CBBD0600414221 /* ZFSubItemView.h */,
+				372F8EE421CBBD0600414221 /* ZFSubItemView.m */,
+				37F750C921C3917800752AE4 /* ZFNodeView.h */,
+				37F750CA21C3917800752AE4 /* ZFNodeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37F750C521C38FF100752AE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37F750C621C3902400752AE4 /* ZFGesturePasswordConfig.h */,
+				37F750C721C3902400752AE4 /* ZFGesturePasswordConfig.m */,
+				37F750CD21C7420F00752AE4 /* ZFGesturePasswordStore.h */,
+				37F750CE21C7420F00752AE4 /* ZFGesturePasswordStore.m */,
+				37F750CC21C393F800752AE4 /* GestureConfigHeader.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37F750A321C389CD00752AE4 /* ZFGesturePassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F750BA21C389CF00752AE4 /* Build configuration list for PBXNativeTarget "ZFGesturePassword" */;
+			buildPhases = (
+				37F750A021C389CD00752AE4 /* Sources */,
+				37F750A121C389CD00752AE4 /* Frameworks */,
+				37F750A221C389CD00752AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFGesturePassword;
+			productName = ZFGesturePassword;
+			productReference = 37F750A421C389CD00752AE4 /* ZFGesturePassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37F7509C21C389CD00752AE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = 58;
+				TargetAttributes = {
+					37F750A321C389CD00752AE4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 37F7509F21C389CD00752AE4 /* Build configuration list for PBXProject "ZFGesturePassword" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37F7509B21C389CD00752AE4;
+			productRefGroup = 37F750A521C389CD00752AE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37F750A321C389CD00752AE4 /* ZFGesturePassword */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37F750A221C389CD00752AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F750B421C389CF00752AE4 /* LaunchScreen.storyboard in Resources */,
+				37F750B121C389CF00752AE4 /* Assets.xcassets in Resources */,
+				37F750AF21C389CE00752AE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37F750A021C389CD00752AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F750AC21C389CE00752AE4 /* ViewController.m in Sources */,
+				37F750B721C389CF00752AE4 /* main.m in Sources */,
+				37F750CF21C7420F00752AE4 /* ZFGesturePasswordStore.m in Sources */,
+				372F8EE521CBBD0600414221 /* ZFSubItemView.m in Sources */,
+				37F750C821C3902400752AE4 /* ZFGesturePasswordConfig.m in Sources */,
+				37F750A921C389CE00752AE4 /* AppDelegate.m in Sources */,
+				37F750CB21C3917800752AE4 /* ZFNodeView.m in Sources */,
+				37F750C021C38A1900752AE4 /* ZFGesturePasswordViewController.m in Sources */,
+				37F750C421C38FE300752AE4 /* ZFGestureView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37F750AD21C389CE00752AE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F750AE21C389CE00752AE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37F750B221C389CF00752AE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F750B321C389CF00752AE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37F750B821C389CF00752AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37F750B921C389CF00752AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37F750BB21C389CF00752AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WF494FH62;
+				INFOPLIST_FILE = ZFGesturePassword/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xzf.ZFGesturePassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		37F750BC21C389CF00752AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WF494FH62;
+				INFOPLIST_FILE = ZFGesturePassword/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xzf.ZFGesturePassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37F7509F21C389CD00752AE4 /* Build configuration list for PBXProject "ZFGesturePassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F750B821C389CF00752AE4 /* Debug */,
+				37F750B921C389CF00752AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F750BA21C389CF00752AE4 /* Build configuration list for PBXNativeTarget "ZFGesturePassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F750BB21C389CF00752AE4 /* Debug */,
+				37F750BC21C389CF00752AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37F7509C21C389CD00752AE4 /* Project object */;
+}
